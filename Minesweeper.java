@@ -82,8 +82,7 @@ public class Minesweeper {
 
     public static int Minesweepa(){
         table=new int[10][10];
-        //bombs = Integer.parseInt( JOptionPane.showInputDialog(null,"How many bombs would you like to find?", "# of Bombs",JOptionPane.INFORMATION_MESSAGE));
-        bombs=1;
+        bombs = Integer.parseInt( JOptionPane.showInputDialog(null,"How many bombs would you like to find?", "# of Bombs",JOptionPane.INFORMATION_MESSAGE));
         int bombsNotPlaced = bombs;
         int row=0;
         int col=0;
